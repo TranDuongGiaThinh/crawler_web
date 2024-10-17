@@ -29,6 +29,7 @@ class PackageTypeAdminItem extends StatelessWidget {
           padding: const EdgeInsets.all(16),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -39,6 +40,9 @@ class PackageTypeAdminItem extends StatelessWidget {
                       fontSize: 32,
                       fontWeight: FontWeight.bold,
                     ),
+                    textAlign: TextAlign.center,
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
                   ),
                   const SizedBox(height: 8),
                   Text(
